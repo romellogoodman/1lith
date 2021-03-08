@@ -79,8 +79,8 @@ export const useFathom = () => {
 
   useEffect(() => {
     // Initialize Fathom when the app loads
-    Fathom.load('JLDZAPDH', {
-      includedDomains: ['goodgraphics.xyz'],
+    Fathom.load('MDXQRAQI', {
+      includedDomains: ['1lith.com'],
     });
 
     // NOTE: We arent doing any next/link transitions but just in case
