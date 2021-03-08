@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 1lith
 
-## Getting Started
+# Table of Contents
 
-First, run the development server:
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
+- [Contributing](#Contributing)
+- [Codebase](#Codebase)
+
+# Contributing
+
+All contributors and all contributions both big and small are welcome in this project. In order to ensure this community is health and works for everyone all contributors must adhere to the [Code of Conduct](./CODE_OF_CONDUCT.md) that our community follows. This code of conduct also applies to all conversations that happen within our community here on GitHub. I expect discussions in issues and pull requests to stay positive, productive, and respectful.
+
+## Issues & PRs
+
+The easiest way to get started is by browsing open isssues or opening a new one. There are templates for requesting features, reporting bugs, etc. If you don’t see what you need open one anyways! I'd love to help answer your question or chat through your idea.
+
+See an issue that you want to tackle? Then open up a PR for it!
+
+# Codebase
+
+1lith is a javascript codebase built on top of popular open source projects.
+
+- [Node.js](https://nodejs.org/en/)
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+
+More specifically Next.js serves as the framework on which this entire codebase is built upon and organized for. Having a basic familiarity of the ins and outs of each technology would be helpful but isn't required.
+
+## Folder structure
+
+```sh
+1lith/
+├── common      # Commonly shared code, <Components />, utils, json, etc
+├── apps        # Each app
+└── public      # Public files and assets
+```
+
+## Local Set Up
+
+1lith uses [nvm](https://github.com/nvm-sh/nvm) and `.nvmrc` to ensure contributers are using the correct version. Check the file for the current version the codebase is running.
+
+Clone the project
+
+```bash
+git clone https://github.com/romellogoodman/1lith.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the dev server
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Author
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Romello Goodman ([@mellogood](https://twitter.com/mellogood))

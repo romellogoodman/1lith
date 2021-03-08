@@ -1,0 +1,2 @@
+# All robots allowed
+User-agent: *

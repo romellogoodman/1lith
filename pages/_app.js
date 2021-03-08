@@ -1,7 +1,19 @@
-import '../styles/globals.css'
+import {ChakraProvider} from '@chakra-ui/react';
+import Head from 'common/components/Head';
+import React from 'react';
+import {useFathom} from 'common/hooks';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const App = (props) => {
+  const {Component, pageProps = {}} = props;
 
-export default MyApp
+  useFathom();
+
+  return (
+    <ChakraProvider>
+      <Head />
+      <Component {...pageProps} />
+    </ChakraProvider>
+  );
+};
+
+export default App;
